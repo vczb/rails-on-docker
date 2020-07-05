@@ -1,24 +1,13 @@
-# README
+### Rails & Postgres on Docker Container
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##### execute commands:
 
-Things you may want to cover:
+`docker-compose up --build`
 
-* Ruby version
+`docker-compose run web rake db:create`
 
-* System dependencies
+##### access in your browser:
 
-* Configuration
+`http://localhost:3000/`
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
